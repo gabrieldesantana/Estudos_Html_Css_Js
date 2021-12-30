@@ -1,0 +1,56 @@
+body {
+  font-family: Arial;
+}
+
+section {
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  background: #111;
+  padding: 30px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+h2 {
+  color: white;
+  margin: 0;
+}
+
+p {
+  color: #b2b2b2;
+}
+
+h2 span,
+p span {
+  color: #febe01;
+}
+
+a {
+  padding: 10px;
+  background: #febe01;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #332200;
+}
+
+/* a:hover {
+  background: #332200;
+  color: #febe01;
+  transition: 1s;
+} */
+a:hover {
+  box-shadow: inset -10.5em 0 0 0 #111, inset 10.5em 0 0 0 #111;
+  color: #febe01;
+  transition: 0.5s;
+}
+
+footer {
+  font-style: italic;
+  text-align: center;
+}
